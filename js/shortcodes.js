@@ -583,7 +583,7 @@
 				if(this.$data.saturation == "fill")
 				{
 
-					style_color = this.$data.hue ||혻"#242424";
+					style_color = this.$data.hue || "#242424";
 
 					var c = style_color.substring(1);      // strip #
 					var rgb = parseInt(c, 16);   // convert rrggbb to decimal
