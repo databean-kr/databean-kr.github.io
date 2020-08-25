@@ -3360,7 +3360,7 @@ $.fn.avia_hor_gallery= function(options)
 				send.button.addClass('av-sending-button');
 				send.button.val(send.button.data('sending-label'));
 
-				var redirect_to = form.data('avia-redirect') ||혻false,
+				var redirect_to = form.data('avia-redirect') || false,
 					action		= form.attr('action');
 
 				responseContainer.load(action+' '+options.responseContainer, send.dataObj, function()
@@ -3392,7 +3392,7 @@ $.fn.avia_hor_gallery= function(options)
 				send.button.val(send.button.data('sending-label'));
 				send.dataObj.ajax_mailchimp = true;
 
-				var redirect_to 		= form.data('avia-redirect') ||혻false,
+				var redirect_to 		= form.data('avia-redirect') || false,
 					action				= form.attr('action'),
 					error_msg_container = form.find('.av-form-error-container'),
 					form_id 			= form.data('avia-form-id');
@@ -4788,7 +4788,7 @@ Avia Slideshow
     	//calculate which slide should be displayed next and call the executing transition function
     	_navigate : function( dir, pos ) {
 
-			if( this.isAnimating || this.itemsCount < 2혻|| !this.$slider.is(":visible") )
+			if( this.isAnimating || this.itemsCount < 2 || !this.$slider.is(":visible") )
 			{
 				return false;
 			}
@@ -5141,7 +5141,7 @@ Avia Slideshow
 				if(event.data.iteration === 0)
 				{
 					event.data.wrap.css('opacity',0);
-					if(!event.data.self.isMobile && !event.data.slide.data('disableAutoplay')) { event.data.slide.trigger('play'); }혻
+					if(!event.data.self.isMobile && !event.data.slide.data('disableAutoplay')) { event.data.slide.trigger('play'); }
 					setTimeout(function(){ event.data.wrap.avia_animate({opacity:1}, 400); }, 50);
 				}
 				else if ($html.is('.avia-msie') && !event.data.slide.is('.av-video-service-html5'))
