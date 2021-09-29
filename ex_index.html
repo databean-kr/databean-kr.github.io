@@ -39,6 +39,16 @@
                 flex-basis: 350px;
                 flex-grow: 1;
             }
+            .mp_logo{
+                min-width: 50px;
+                flex-basis: 160px;
+                flex-grow: 1;
+            }
+            .mp_footer{
+                min-width: 50px;
+                flex-basis: 90px;
+                flex-grow: 1;
+            }
             </style>
             <link rel='stylesheet' id='avia-grid-css' href='/css/grid.css' type='text/css' media='all' />
             <link rel='stylesheet' id='avia-base-css' href='/css/base.css' type='text/css' media='all' />
@@ -103,7 +113,7 @@
     </head>
     <body id="top" class="home page-template-default page page-id-340 stretched quicksand open_sans " itemscope="itemscope" itemtype="https://schema.org/WebPage" >
         <div id='wrap_all'>
-            <header id='header' class='all_colors header_color light_bg_color  av_header_top av_logo_left av_main_nav_header av_menu_right av_slim av_header_sticky av_header_shrinking av_header_stretch_disabled av_mobile_menu_phone av_header_transparency av_header_searchicon_disabled av_header_unstick_top_disabled av_minimal_header av_minimal_header_shadow av_bottom_nav_disabled  av_alternate_logo_active av_header_border_disabled'  role="banner" itemscope="itemscope" itemtype="https://schema.org/WPHeader" >
+            <header id='header' class='all_colors header_color light_bg_color  av_header_top av_logo_left av_main_nav_header av_menu_right av_slim av_header_sticky av_header_shrinking av_header_stretch_disabled av_mobile_menu_phone av_header_searchicon_disabled av_header_unstick_top_disabled av_minimal_header av_minimal_header_shadow av_bottom_nav_disabled  av_alternate_logo_active av_header_border_disabled'  role="banner" itemscope="itemscope" itemtype="https://schema.org/WPHeader" >
                 <a id="advanced_menu_toggle" href="#" aria-hidden='true' data-av_icon='' data-av_iconfont='entypo-fontello'></a>
                 <a id="advanced_menu_hide" href="#" 	aria-hidden='true' data-av_icon='' data-av_iconfont='entypo-fontello'></a>
                 <div  id='header_main' class='container_wrap container_wrap_logo'>
@@ -370,28 +380,6 @@
                                     <footer class="entry-footer"></footer>
                                 </article>
                             </div>
-                            <!-- 3번 -->
-                            <!-- <div class="flex_column av_one_full  av-animated-generic right-to-left  flex_column_div av-zero-column-padding first  avia-builder-el-32  el_after_av_one_full  avia-builder-el-last  column-top-margin" style='border-radius:0px; '>
-                                <article class="iconbox iconbox_left   avia-builder-el-33  avia-builder-el-no-sibling  "  itemscope="itemscope" itemtype="https://schema.org/CreativeWork" >
-                                    <div class="iconbox_content">
-                                        <header class="entry-content-header">
-                                            <div class="iconbox_icon heading-color" aria-hidden='true' data-av_icon='' data-av_iconfont='entypo-fontello'  style='color:#ffffff; ' ></div>
-                                            <h3 class='iconbox_content_title'  itemprop="headline"   style='color:#ffffff; '>제품군</h3>
-                                        </header>
-                                        <div class='iconbox_content_container av_inherit_color'  itemprop="text"   style='color:#ffffff; '>
-                                            <section class="av_textblock_section"  itemscope="itemscope" itemtype="https://schema.org/CreativeWork" >
-                                                <div class='avia_textblock  av_inherit_color' style='color:#ffffff;' itemprop="text" >
-                                                    <p>
-                                                        &nbsp;&nbsp; <a href="/cooling.html#fordc">- SmartBox for datacenter (바로가기)</a><br/>
-                                                        &nbsp;&nbsp; <a href="/cooling.html#foredge">- SmartBox for Edge (바로가기)</a>
-                                                    </p>
-                                                </div>
-                                            </section>
-                                        </div>
-                                    </div>
-                                    <footer class="entry-footer"></footer>
-                                </article>
-                            </div> -->
                         </div>
                     </div>
                 </div>
@@ -422,7 +410,7 @@
                                     <div class='avia_textblock '   itemprop="text" >
                                         <p>
                                             <span style="color:grey;">
-                                                <em>보유 중인 모든 장비를 표준 운영 정책을 통해 통합하고, ITIL 표준의 ITSM 기법을 사용하여 자원의 성능과 장애를 감시 및 조치하고 상호 연관성을 분석하여 정확한 진단 및 높은 수준의 서비스를 제공합니다.</em>
+                                                <em>표준운영정책을 통한 제조사별, 제품별 다양한 네트워크 장비의 통함 관리 기능을 제공하고, ITIL 표준의 ITSM 기법을 사용하여 자원의 성능과 장애를 감시 및 조치하고 상호연관성을 분석하여 정확한 진단 및 높은 수준의 서비스를 제공함으로써 네트워크 망의 안정성을 보장합니다.</em>
                                             </span>
                                         </p>
                                     </div>
@@ -433,18 +421,48 @@
                                     <div class="iconbox_content">
                                         <header class="entry-content-header">
                                             <div class="iconbox_icon heading-color" aria-hidden='true' data-av_icon='' data-av_iconfont='entypo-fontello'  ></div>
-                                            <h3 class='iconbox_content_title'  itemprop="headline"  >From Databean</h3>
+                                            <h3 class='iconbox_content_title'  itemprop="headline"  >Datamon의 주요 기능</h3>
                                         </header>
-                                        <div class='iconbox_content_container '  itemprop="text"  >
-                                            <p style="font-size: 13px; color: grey;">
-                                                IT 장비들의 성능을 종합적으로 감시하므로 과부하 시스템을 조기에 발견하고 조치할 수 있어 시스템 작업 효율을 높일 수 있습니다. CPU, 메모리, 디스크 사용률, 프로세스, 네트워크 트래픽, 디스크 I/O 등의 성능을 실시간으로 감시하여 이력 데이터베이스로 구축하므로 축적된 데이터를 근간으로 한 용량 계획(Capacity Planning)이 가능합니다.
-                                                서버 성능 데이터를 분석하여 이력 데이터베이스로 구축하므로 향후 시스템 자원 사용량 예측 및 업그레이드 시기 산정 자료로 활용하며, 성능 자원 사용량 변화를 시간 흐름에 따라 분석한 패턴 흐름 분석 데이터를 제공합니다.
-                                                시스템의 실체인 프로세스에 대한 다양한 관리 기능을 통하여 제공 서비스의 가용률 및 시스템 자원의 사용 이력을 관리할 수 있으며, 서버 장애 시 어떠한 서비스 모듈에 의한 것인지에 대한 원인 파악이 가능합니다.
-                                                다양한 어플리케이션이 운영되는 다수의 웹 콘텐츠 서비스를 End User 관점에서 확인 후 트랜잭션 성능 및 장애 상황을 확인함으로써, 보다 실제적인 웹 서비스 가용성 분석 및 성능 분석을 할 수 있습니다.
-                                            </p>
-                                            <p style="font-size: 13px;">
-                                                제조사별, 제품별 다양한 네트워크 장비의 통합 관리 기능을 제공하고 과부하 / 이상 트래픽 관리, 대규모 네트워크 운영 정책 감사 및 종합 점검 기능을 통해 네트워크망의 안정성을 보장합니다.
-                                            </p>
+                                        <div class='iconbox_content_container av_inherit_color'  itemprop="text"   style='color:#ffffff; '>
+                                            <section class="av_textblock_section mp_content"  itemscope="itemscope" itemtype="https://schema.org/CreativeWork" >
+                                                <div class='avia_textblock  av_inherit_color mp_flexbox' style='color:#ffffff;' itemprop="text" >
+                                                    <table class="flex_column av_one_full  av-animated-generic right-to-left  flex_column_div av-zero-column-padding first  avia-builder-el-32  el_after_av_one_full  avia-builder-el-last">
+                                                        <tr style="background-color: #ffffff; border: 0px;" >
+                                                            <div class="mp_item">
+                                                                <div style="border: 2px solid #000000; padding: 5px 5% 0px 5%; background-color: #ffffff; font-size: 16px; max-height: 100px;">
+                                                                    <img src="/image/efficiency.png">
+                                                                </div>
+                                                            </div>
+                                                            <div class="mp_item">
+                                                                <div style="border: 2px solid #000000; padding: 5px 5% 0px 5%; background-color: #ffffff; font-size: 16px; max-height: 100px;">
+                                                                    <img src="/image/analysis.png">
+                                                                </div>
+                                                            </div>
+                                                        </tr>
+                                                        <tr style="background-color: #ffffff; color: #ffffff; border: 0px;">
+                                                            <div class="mp_item">
+                                                                <div style="border: 2px solid #000000; padding: 5px 5% 0px 5%; background-color: #ffffff; font-size: 16px; max-height: 100px;">
+                                                                    <img src="/image/capacity.png">
+                                                                </div>
+                                                            </div>
+                                                            <div class="mp_item">
+                                                                <div style="border: 2px solid #000000; padding: 5px 5% 0px 5%; background-color: #ffffff; font-size: 16px; max-height: 100px;">
+                                                                    <img src="/image/fail.png">
+                                                                </div>
+                                                            </div>
+                                                        </tr>
+                                                        <tr style="background-color: #ffffff; color: #ffffff; border: 0px;">
+                                                            <div class="mp_item">
+                                                                <div style="border: 2px solid #000000; padding: 5px 5% 0px 5%; background-color: #ffffff; font-size: 16px; max-height: 100px;">
+                                                                    <img src="/image/transaction.png">
+                                                                </div>
+                                                            </div>
+                                                            <div class="mp_item">
+                                                            </div>
+                                                        </tr>
+                                                    </table>
+                                                </div>
+                                            </section>
                                         </div>
                                     </div>
                                     <footer class="entry-footer"></footer>
@@ -464,12 +482,7 @@
                                     </div>
                                     <div class="flex_column av_one_full  flex_column_div av-zero-column-padding first  avia-builder-el-55  el_after_av_hr  avia-builder-el-last  " style='border-radius:0px; '>
                                         <div style='padding-bottom:0px;font-size:40px;' class='av-special-heading av-special-heading-h3  blockquote modern-quote modern-centered  avia-builder-el-56  el_before_av_hr  avia-builder-el-first   av-thin-font av-inherit-size'>
-                                            <h3 class='av-special-heading-tag'  itemprop="headline"  >Take a look at <strong>our recent projects</strong></br></br></h3>
-                                            <div class ='av-subheading av-subheading_below ' style='font-size:15px;'>
-                                                <p>
-                                                    데이터빈과 새로운 가치를 만들어 가고 있는 클라이언트
-                                                </p>
-                                            </div>
+                                            <h3 class='av-special-heading-tag'  itemprop="headline"  ><strong> 데이터빈과 새로운 가치를 만들어가는 고객사</strong> </br></br></h3>
                                             <div class='special-heading-border'>
                                                 <div class='special-heading-inner-border' ></div>
                                             </div>
@@ -477,35 +490,41 @@
                                         <div style=' margin-top:30px; margin-bottom:30px;'  class='hr hr-custom hr-center hr-icon-no  avia-builder-el-57  el_after_av_heading  el_before_av_partner '>
                                             <span class='hr-inner   inner-border-av-border-fat' style=' width:50px; border-color:#000000;' ><span class='hr-inner-style'></span></span>
                                         </div>
-                                        <div  data-autoplay='false'  data-interval='5'  data-animation='slide'  class='avia-logo-element-container av-border-deactivate avia-logo-slider avia-content-slider avia-smallarrow-slider avia-content-slider-active noHover avia-content-slider1 avia-content-slider-odd  avia-builder-el-58  el_after_av_hr  el_before_av_hr ' >
-                                            <div class='avia-smallarrow-slider-heading  no-logo-slider-heading '>
-                                                <div class='new-special-heading'>&nbsp;</div>
-                                            </div>
-                                            <div class='avia-content-slider-inner'>
-                                                <div class='slide-entry-wrap'  itemscope="itemscope" itemtype="https://schema.org/ImageObject" >
-                                                    <div  class='slide-entry flex_column no_margin post-entry slide-entry-overview slide-loop-1 slide-parity-odd av_one_fifth  real-thumbnail'>
-                                                        <img  itemprop="thumbnailUrl"  width="215" height="50" src="/image/lsglobal.jpg" class="attachment-no scaling size-no scaling" alt="" />
+                                        <div class='iconbox_content_container av_inherit_color'  itemprop="text"   style='color:#ffffff; '>
+                                            <section class="av_textblock_section mp_content"  itemscope="itemscope" itemtype="https://schema.org/CreativeWork" >
+                                                <div class='avia_textblock  av_inherit_color mp_flexbox' style='color:#ffffff;' itemprop="text" >
+                                                    <div class="mp_logo">
+                                                        <img  itemprop="thumbnailUrl"  width="200" height="50" src="/image/lsglobal.jpg" alt="" />
                                                     </div>
-                                                    <div  class='slide-entry flex_column no_margin post-entry slide-entry-overview slide-loop-2 slide-parity-even av_one_fifth  real-thumbnail'>
-                                                        <img  itemprop="thumbnailUrl"  width="215" height="50" src="/image/cogymlogo03.png" class="attachment-no scaling size-no scaling" alt="" />
+                                                    <div class="mp_logo">
+                                                        <img  itemprop="thumbnailUrl"  width="200" height="50" src="/image/cogymlogo03.png" alt="" />
                                                     </div>
-                                                    <div  class='slide-entry flex_column no_margin post-entry slide-entry-overview slide-loop-3 slide-parity-odd av_one_fifth first real-thumbnail'>
-                                                        <img  itemprop="thumbnailUrl"  width="215" height="50" src="/image/mstlogo.png" class="attachment-no scaling size-no scaling" alt="" />
+                                                    <div class="mp_logo">
+                                                        <img  itemprop="thumbnailUrl"  width="200" height="50" src="/image/mstlogo.png" alt="" />
                                                     </div>
-                                                    <div  class='slide-entry flex_column no_margin post-entry slide-entry-overview slide-loop-4 slide-parity-even av_one_fifth  real-thumbnail'>
-                                                        <img  itemprop="thumbnailUrl"  width="215" height="50" src="/image/bmcnetlogo.png" class="attachment-no scaling size-no scaling" alt="" />
+                                                    <div class="mp_logo">
+                                                        <img  itemprop="thumbnailUrl"  width="200" height="50" src="/image/bmcnetlogo.png" alt="" />
                                                     </div>
-                                                    <div  class='slide-entry flex_column no_margin post-entry slide-entry-overview slide-loop-5 slide-parity-odd av_one_fifth real-thumbnail post-entry-last'>
-                                                        <img  itemprop="thumbnailUrl"  width="215" height="50" src="/image/mdstechlogo.png" class="attachment-no scaling size-no scaling" alt="" />
+                                                    <div class="mp_logo">
+                                                        <img  itemprop="thumbnailUrl"  width="200" height="50" src="/image/mdstechlogo.png" alt="" />
                                                     </div>
-                                                    <div  class='slide-entry flex_column no_margin post-entry slide-entry-overview slide-loop-6 slide-parity-even  av_one_fifth  real-thumbnail'>
-                                                        <img  itemprop="thumbnailUrl"  width="215" height="50" src="/image/komerilogo2.png" class="attachment-no scaling size-no scaling" alt="" />
+                                                    <div class="mp_logo">
+                                                        <img  itemprop="thumbnailUrl"  width="200" height="50" src="/image/komerilogo2.png" alt="" />
                                                     </div>
-                                                    <div  class='slide-entry flex_column no_margin post-entry slide-entry-overview slide-loop-7 slide-parity-odd  post-entry-last  av_one_fifth  real-thumbnail'>
-                                                        <img  itemprop="thumbnailUrl"  width="215" height="50" src="/image/komerilogo1.png" class="attachment-no scaling size-no scaling" alt="" />
+                                                    <div class="mp_logo">
+                                                        <img  itemprop="thumbnailUrl"  width="200" height="50" src="/image/komerilogo1.png" alt="" />
+                                                    </div>
+                                                    <div class="mp_logo">
+                                                        <img  itemprop="thumbnailUrl"  width="200" height="50" src="/image/ktl.png" alt="" />
+                                                    </div>
+                                                    <div class="mp_logo">
+                                                        <img  itemprop="thumbnailUrl"  width="200" height="50" src="/image/kicet.png" alt="" />
+                                                    </div>
+                                                    <div class="mp_logo">
+                                                        <img  itemprop="thumbnailUrl"  width="200" height="50" src="/image/kier.jpg" alt="" />
                                                     </div>
                                                 </div>
-                                            </div>
+                                            </section>
                                         </div>
                                         <div style='height:50px' class='hr hr-invisible  avia-builder-el-59  el_after_av_partner  avia-builder-el-last '>
                                             <span class='hr-inner ' ><span class='hr-inner-style'></span></span>
