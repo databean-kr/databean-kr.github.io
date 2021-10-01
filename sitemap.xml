@@ -9,38 +9,38 @@
 
 <url>
   <loc>http://www.databean.co.kr/</loc>
-  <lastmod>2021-08-10T00:50:21+00:00</lastmod>
+  <lastmod>2021-09-29T23:49:35+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
+  <loc>http://www.databean.co.kr/cooling.html</loc>
+  <lastmod>2021-09-30T03:49:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
   <loc>http://www.databean.co.kr/solution.html</loc>
-  <lastmod>2021-08-10T00:50:21+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.databean.co.kr/about.html</loc>
-  <lastmod>2021-08-10T00:51:16+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.databean.co.kr/data/About_Databean_202106.pdf</loc>
-  <lastmod>2021-06-24T01:07:33+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.databean.co.kr/index.html</loc>
-  <lastmod>2021-08-10T00:50:21+00:00</lastmod>
+  <lastmod>2021-09-30T00:34:20+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://www.databean.co.kr/question.html</loc>
-  <lastmod>2021-08-10T00:50:21+00:00</lastmod>
+  <lastmod>2021-09-29T23:49:35+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.databean.co.kr/cooling.html</loc>
-  <lastmod>2021-08-10T00:50:21+00:00</lastmod>
+  <loc>http://www.databean.co.kr/about.html</loc>
+  <lastmod>2021-10-01T05:53:44+00:00</lastmod>
   <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.databean.co.kr/data/DataBean_SmartBox_Edge.pdf</loc>
+  <lastmod>2021-09-15T02:36:42+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.databean.co.kr/data/Databean_CompanyBrief_202110.pdf</loc>
+  <lastmod>2021-10-01T05:53:44+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 
 
